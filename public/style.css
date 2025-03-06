@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+:root {
+	color-scheme: light dark;
+}
+
+html {
+	height: 100%;
+}
+body {
+	background-image: linear-gradient(red, light-dark(white, black));
+	height: 100%;
+	background-size: cover;
+	color: light-dark(black, white);
+}
+.hero {
+	padding: 100px 0;
+	text-align: center;
+}
+.card {
+	margin: 20px 0;
+}
+
+.Navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	padding: 20px 0;
+	background-color: rgba(1, 0, 0, 0.8);
+}
